@@ -1,0 +1,133 @@
+
+.about{
+    background-color: #102C57;
+}
+.sty-1{
+    object-fit:cover;
+    border-radius: 9px;
+}
+.sty-2{
+    margin:20px;
+    
+
+}
+.sty-3{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.sty-4{
+    display:grid;
+    
+   
+    
+    
+}
+.box1{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    display: inline-block;
+    align-items: center;
+    
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn.btn-primary.text-white.custom-bg.sty-5{
+    background-color: rgb(25, 188, 25);
+    border: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a.active, header nav ul li a:hover {
+    background: #ff6347;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #575757;
+    border-radius: 6px;
+    border: 3px solid #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff6347;
+}
+
+.sty-7{
+    margin-top:31px;
+}
+.sty-8{
+    background-color: #DAC0A3;
+}
